@@ -1,0 +1,23 @@
+{
+  "name": "dayFourteenHomework",
+  "version": "0.0.0",
+  "authors": [
+    "Tyler Cecchi <thcecchi@gmail.com>"
+  ],
+  "description": "Github recreation",
+  "main": "main.js",
+  "license": "MIT",
+  "homepage": "tylercecchi.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.7.0",
+    "jquery": "~2.1.3"
+  }
+}

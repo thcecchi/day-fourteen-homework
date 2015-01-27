@@ -1,0 +1,1086 @@
+[
+{
+  "id": "2540266979",
+  "type": "PushEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29874250,
+    "name": "thcecchi/day-thirteen-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-thirteen-homework"
+  },
+  "payload": {
+    "push_id": 557767948,
+    "size": 2,
+    "distinct_size": 2,
+    "ref": "refs/heads/master",
+    "head": "9435004621dffa89fd976d20428d7993cdab93df",
+    "before": "f427a20904fcd546221ab97ee6d2c6963cf39dfc",
+    "commits": [
+  {
+    "sha": "5c14d8f03bec0704d9e8f3b841b9d18c9433d82b",
+    "author": {
+      "email": "thcecchi@gmail.com",
+      "name": "Tyler Cecchi"
+    },
+    "message": "fourth commit",
+    "distinct": true,
+    "url": "https://api.github.com/repos/thcecchi/day-thirteen-homework/commits/5c14d8f03bec0704d9e8f3b841b9d18c9433d82b"
+  },
+{
+  "sha": "9435004621dffa89fd976d20428d7993cdab93df",
+  "author": {
+    "email": "thcecchi@gmail.com",
+    "name": "Tyler Cecchi"
+  },
+  "message": "completed CRUD",
+  "distinct": true,
+  "url": "https://api.github.com/repos/thcecchi/day-thirteen-homework/commits/9435004621dffa89fd976d20428d7993cdab93df"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-27T20:37:19Z"
+},
+{
+  "id": "2537994554",
+  "type": "PushEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29705320,
+    "name": "thcecchi/day-twelve-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-twelve-homework"
+  },
+  "payload": {
+    "push_id": 556840613,
+    "size": 2,
+    "distinct_size": 2,
+    "ref": "refs/heads/master",
+    "head": "d97dc5da13299d0e1ed8422c8b45805b00126148",
+    "before": "1223d86f1c37c3e927e6cb98d44b5e85ee155531",
+    "commits": [
+  {
+    "sha": "af6743e80de7ff03b2901fbcb355469aff08fd5f",
+    "author": {
+      "email": "thcecchi@gmail.com",
+      "name": "Tyler Cecchi"
+    },
+    "message": "revisions to sections underway",
+    "distinct": true,
+    "url": "https://api.github.com/repos/thcecchi/day-twelve-homework/commits/af6743e80de7ff03b2901fbcb355469aff08fd5f"
+  },
+{
+  "sha": "d97dc5da13299d0e1ed8422c8b45805b00126148",
+  "author": {
+    "email": "thcecchi@gmail.com",
+    "name": "Tyler Cecchi"
+  },
+  "message": "revised card sections",
+  "distinct": true,
+  "url": "https://api.github.com/repos/thcecchi/day-twelve-homework/commits/d97dc5da13299d0e1ed8422c8b45805b00126148"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-27T00:50:06Z"
+},
+{
+  "id": "2537078210",
+  "type": "CreateEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29874250,
+    "name": "thcecchi/day-thirteen-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-thirteen-homework"
+  },
+  "payload": {
+    "ref": "master",
+    "ref_type": "branch",
+    "master_branch": "master",
+    "description": "",
+    "pusher_type": "user"
+  },
+  "public": true,
+  "created_at": "2015-01-26T18:09:10Z"
+},
+{
+  "id": "2537072068",
+  "type": "CreateEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29874250,
+    "name": "thcecchi/day-thirteen-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-thirteen-homework"
+  },
+  "payload": {
+    "ref": null,
+    "ref_type": "repository",
+    "master_branch": "master",
+    "description": "",
+    "pusher_type": "user"
+  },
+  "public": true,
+  "created_at": "2015-01-26T18:06:32Z"
+},
+{
+  "id": "2535559257",
+  "type": "PushEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29705320,
+    "name": "thcecchi/day-twelve-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-twelve-homework"
+  },
+  "payload": {
+    "push_id": 555856225,
+    "size": 1,
+    "distinct_size": 1,
+    "ref": "refs/heads/master",
+    "head": "1223d86f1c37c3e927e6cb98d44b5e85ee155531",
+    "before": "7f1e645e3d2fc32552bb9ccaf918687f32dfffb2",
+    "commits": [
+  {
+    "sha": "1223d86f1c37c3e927e6cb98d44b5e85ee155531",
+    "author": {
+      "email": "thcecchi@gmail.com",
+      "name": "Tyler Cecchi"
+    },
+    "message": "added menu nav functionality",
+    "distinct": true,
+    "url": "https://api.github.com/repos/thcecchi/day-twelve-homework/commits/1223d86f1c37c3e927e6cb98d44b5e85ee155531"
+  }
+  ]
+},
+"public": true,
+"created_at": "2015-01-26T03:10:52Z"
+},
+{
+  "id": "2535460756",
+  "type": "PushEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29603929,
+    "name": "thcecchi/day-eleven-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-eleven-homework"
+  },
+  "payload": {
+    "push_id": 555814080,
+    "size": 1,
+    "distinct_size": 1,
+    "ref": "refs/heads/master",
+    "head": "e33304d74abb5726562a588974d822a52723c854",
+    "before": "3de063ae13262b6c0a3cf5967ee270a2d72cf4f0",
+    "commits": [
+  {
+    "sha": "e33304d74abb5726562a588974d822a52723c854",
+    "author": {
+      "email": "thcecchi@gmail.com",
+      "name": "Tyler Cecchi"
+    },
+    "message": "completed jquery functionality",
+    "distinct": true,
+    "url": "https://api.github.com/repos/thcecchi/day-eleven-homework/commits/e33304d74abb5726562a588974d822a52723c854"
+  }
+  ]
+},
+"public": true,
+"created_at": "2015-01-26T01:14:40Z"
+},
+{
+  "id": "2535404111",
+  "type": "PushEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29603929,
+    "name": "thcecchi/day-eleven-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-eleven-homework"
+  },
+  "payload": {
+    "push_id": 555788018,
+    "size": 1,
+    "distinct_size": 1,
+    "ref": "refs/heads/master",
+    "head": "3de063ae13262b6c0a3cf5967ee270a2d72cf4f0",
+    "before": "c3c59f823d5fa25f4ecb2f4d05f651a3f55059be",
+    "commits": [
+  {
+    "sha": "3de063ae13262b6c0a3cf5967ee270a2d72cf4f0",
+    "author": {
+      "email": "thcecchi@gmail.com",
+      "name": "Tyler Cecchi"
+    },
+    "message": "added addition jquery events",
+    "distinct": true,
+    "url": "https://api.github.com/repos/thcecchi/day-eleven-homework/commits/3de063ae13262b6c0a3cf5967ee270a2d72cf4f0"
+  }
+  ]
+},
+"public": true,
+"created_at": "2015-01-25T23:56:46Z"
+},
+{
+  "id": "2533299484",
+  "type": "PushEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29603929,
+    "name": "thcecchi/day-eleven-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-eleven-homework"
+  },
+  "payload": {
+    "push_id": 554840272,
+    "size": 3,
+    "distinct_size": 3,
+    "ref": "refs/heads/master",
+    "head": "c3c59f823d5fa25f4ecb2f4d05f651a3f55059be",
+    "before": "ffb571914e764759e78f7d45f393a3533d56e52c",
+    "commits": [
+  {
+    "sha": "fd278b0a1536818006d971cbc105cab66c23f069",
+    "author": {
+      "email": "thcecchi@gmail.com",
+      "name": "Tyler Cecchi"
+    },
+    "message": "sixth commit, minor revisions to nav js",
+    "distinct": true,
+    "url": "https://api.github.com/repos/thcecchi/day-eleven-homework/commits/fd278b0a1536818006d971cbc105cab66c23f069"
+  },
+{
+  "sha": "97af85e4eaed5319befbacae7f50380db3e10d4e",
+  "author": {
+    "email": "thcecchi@gmail.com",
+    "name": "Tyler Cecchi"
+  },
+  "message": "seventh commit, added styles for .activeNav",
+  "distinct": true,
+  "url": "https://api.github.com/repos/thcecchi/day-eleven-homework/commits/97af85e4eaed5319befbacae7f50380db3e10d4e"
+},
+{
+  "sha": "c3c59f823d5fa25f4ecb2f4d05f651a3f55059be",
+  "author": {
+    "email": "thcecchi@gmail.com",
+    "name": "Tyler Cecchi"
+  },
+  "message": "photo albums now load imgs from myAlbums Object",
+  "distinct": true,
+  "url": "https://api.github.com/repos/thcecchi/day-eleven-homework/commits/c3c59f823d5fa25f4ecb2f4d05f651a3f55059be"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-23T22:13:53Z"
+},
+{
+  "id": "2530838777",
+  "type": "CreateEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29705320,
+    "name": "thcecchi/day-twelve-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-twelve-homework"
+  },
+  "payload": {
+    "ref": "master",
+    "ref_type": "branch",
+    "master_branch": "master",
+    "description": "",
+    "pusher_type": "user"
+  },
+  "public": true,
+  "created_at": "2015-01-22T23:14:07Z"
+},
+{
+  "id": "2530835773",
+  "type": "CreateEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29705320,
+    "name": "thcecchi/day-twelve-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-twelve-homework"
+  },
+  "payload": {
+    "ref": null,
+    "ref_type": "repository",
+    "master_branch": "master",
+    "description": "",
+    "pusher_type": "user"
+  },
+  "public": true,
+  "created_at": "2015-01-22T23:12:44Z"
+},
+{
+  "id": "2529518082",
+  "type": "PushEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29603929,
+    "name": "thcecchi/day-eleven-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-eleven-homework"
+  },
+  "payload": {
+    "push_id": 553306276,
+    "size": 1,
+    "distinct_size": 1,
+    "ref": "refs/heads/master",
+    "head": "ffb571914e764759e78f7d45f393a3533d56e52c",
+    "before": "291ed61898fe3f90db419a8ee45b120842ccd3fa",
+    "commits": [
+  {
+    "sha": "ffb571914e764759e78f7d45f393a3533d56e52c",
+    "author": {
+      "email": "thcecchi@gmail.com",
+      "name": "Tyler Cecchi"
+    },
+    "message": "fifth commit",
+    "distinct": true,
+    "url": "https://api.github.com/repos/thcecchi/day-eleven-homework/commits/ffb571914e764759e78f7d45f393a3533d56e52c"
+  }
+  ]
+},
+"public": true,
+"created_at": "2015-01-22T14:38:56Z"
+},
+{
+  "id": "2528477287",
+  "type": "PushEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29603929,
+    "name": "thcecchi/day-eleven-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-eleven-homework"
+  },
+  "payload": {
+    "push_id": 552868379,
+    "size": 1,
+    "distinct_size": 1,
+    "ref": "refs/heads/master",
+    "head": "291ed61898fe3f90db419a8ee45b120842ccd3fa",
+    "before": "edae1cc72bb6f722d37b0ad92ce5b6cc3a14b8bd",
+    "commits": [
+  {
+    "sha": "291ed61898fe3f90db419a8ee45b120842ccd3fa",
+    "author": {
+      "email": "thcecchi@gmail.com",
+      "name": "Tyler Cecchi"
+    },
+    "message": "fourth commit",
+    "distinct": true,
+    "url": "https://api.github.com/repos/thcecchi/day-eleven-homework/commits/291ed61898fe3f90db419a8ee45b120842ccd3fa"
+  }
+  ]
+},
+"public": true,
+"created_at": "2015-01-22T03:37:57Z"
+},
+{
+  "id": "2528250681",
+  "type": "PushEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29603929,
+    "name": "thcecchi/day-eleven-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-eleven-homework"
+  },
+  "payload": {
+    "push_id": 552782398,
+    "size": 2,
+    "distinct_size": 2,
+    "ref": "refs/heads/master",
+    "head": "edae1cc72bb6f722d37b0ad92ce5b6cc3a14b8bd",
+    "before": "25b0a195ee4d395cd970ceb2af48a3f5edf39e1b",
+    "commits": [
+  {
+    "sha": "707dbea1bbfb15bdc4c9898474e949d619706f26",
+    "author": {
+      "email": "thcecchi@gmail.com",
+      "name": "Tyler Cecchi"
+    },
+    "message": "second commit",
+    "distinct": true,
+    "url": "https://api.github.com/repos/thcecchi/day-eleven-homework/commits/707dbea1bbfb15bdc4c9898474e949d619706f26"
+  },
+{
+  "sha": "edae1cc72bb6f722d37b0ad92ce5b6cc3a14b8bd",
+  "author": {
+    "email": "thcecchi@gmail.com",
+    "name": "Tyler Cecchi"
+  },
+  "message": "third commit",
+  "distinct": true,
+  "url": "https://api.github.com/repos/thcecchi/day-eleven-homework/commits/edae1cc72bb6f722d37b0ad92ce5b6cc3a14b8bd"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-22T00:59:31Z"
+},
+{
+  "id": "2527311919",
+  "type": "CreateEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29603929,
+    "name": "thcecchi/day-eleven-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-eleven-homework"
+  },
+  "payload": {
+    "ref": "master",
+    "ref_type": "branch",
+    "master_branch": "master",
+    "description": "",
+    "pusher_type": "user"
+  },
+  "public": true,
+  "created_at": "2015-01-21T18:14:25Z"
+},
+{
+  "id": "2527310159",
+  "type": "CreateEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29603929,
+    "name": "thcecchi/day-eleven-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-eleven-homework"
+  },
+  "payload": {
+    "ref": null,
+    "ref_type": "repository",
+    "master_branch": "master",
+    "description": "",
+    "pusher_type": "user"
+  },
+  "public": true,
+  "created_at": "2015-01-21T18:13:41Z"
+},
+{
+  "id": "2526651153",
+  "type": "PushEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29548630,
+    "name": "thcecchi/day-ten-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-ten-homework"
+  },
+  "payload": {
+    "push_id": 552155733,
+    "size": 1,
+    "distinct_size": 1,
+    "ref": "refs/heads/master",
+    "head": "1092385167b30b36dcca84ab7b9679e3eaede57d",
+    "before": "5ee7e144500d5b3f5c94904d3a9600c480044730",
+    "commits": [
+  {
+    "sha": "1092385167b30b36dcca84ab7b9679e3eaede57d",
+    "author": {
+      "email": "thcecchi@gmail.com",
+      "name": "Tyler Cecchi"
+    },
+    "message": "revised answer #2",
+    "distinct": true,
+    "url": "https://api.github.com/repos/thcecchi/day-ten-homework/commits/1092385167b30b36dcca84ab7b9679e3eaede57d"
+  }
+  ]
+},
+"public": true,
+"created_at": "2015-01-21T14:15:39Z"
+},
+{
+  "id": "2525013677",
+  "type": "PushEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29548630,
+    "name": "thcecchi/day-ten-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-ten-homework"
+  },
+  "payload": {
+    "push_id": 551490506,
+    "size": 1,
+    "distinct_size": 1,
+    "ref": "refs/heads/master",
+    "head": "5ee7e144500d5b3f5c94904d3a9600c480044730",
+    "before": "047d65bb22150aa46e97f3cab68faec0ac696585",
+    "commits": [
+  {
+    "sha": "5ee7e144500d5b3f5c94904d3a9600c480044730",
+    "author": {
+      "email": "thcecchi@gmail.com",
+      "name": "Tyler Cecchi"
+    },
+    "message": "second commit",
+    "distinct": true,
+    "url": "https://api.github.com/repos/thcecchi/day-ten-homework/commits/5ee7e144500d5b3f5c94904d3a9600c480044730"
+  }
+  ]
+},
+"public": true,
+"created_at": "2015-01-20T21:36:46Z"
+},
+{
+  "id": "2524747004",
+  "type": "CreateEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29548630,
+    "name": "thcecchi/day-ten-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-ten-homework"
+  },
+  "payload": {
+    "ref": "master",
+    "ref_type": "branch",
+    "master_branch": "master",
+    "description": "",
+    "pusher_type": "user"
+  },
+  "public": true,
+  "created_at": "2015-01-20T19:49:23Z"
+},
+{
+  "id": "2524742580",
+  "type": "CreateEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29548630,
+    "name": "thcecchi/day-ten-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-ten-homework"
+  },
+  "payload": {
+    "ref": null,
+    "ref_type": "repository",
+    "master_branch": "master",
+    "description": "",
+    "pusher_type": "user"
+  },
+  "public": true,
+  "created_at": "2015-01-20T19:47:43Z"
+},
+{
+  "id": "2522692851",
+  "type": "PushEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29498806,
+    "name": "thcecchi/day-eight-homework-JS-game",
+    "url": "https://api.github.com/repos/thcecchi/day-eight-homework-JS-game"
+  },
+  "payload": {
+    "push_id": 550543190,
+    "size": 2,
+    "distinct_size": 2,
+    "ref": "refs/heads/master",
+    "head": "5d51375b9281ba3731c2288a6faa8160a94e4365",
+    "before": "05edd1439227241f4fba03407760d5e4be82f35f",
+    "commits": [
+  {
+    "sha": "8569376837cf6d260d2524e2bca069959daf6a40",
+    "author": {
+      "email": "thcecchi@gmail.com",
+      "name": "Tyler Cecchi"
+    },
+    "message": "second commit",
+    "distinct": true,
+    "url": "https://api.github.com/repos/thcecchi/day-eight-homework-JS-game/commits/8569376837cf6d260d2524e2bca069959daf6a40"
+  },
+{
+  "sha": "5d51375b9281ba3731c2288a6faa8160a94e4365",
+  "author": {
+    "email": "thcecchi@gmail.com",
+    "name": "Tyler Cecchi"
+  },
+  "message": "second commit",
+  "distinct": true,
+  "url": "https://api.github.com/repos/thcecchi/day-eight-homework-JS-game/commits/5d51375b9281ba3731c2288a6faa8160a94e4365"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-20T00:46:49Z"
+},
+{
+  "id": "2522428669",
+  "type": "CreateEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29498806,
+    "name": "thcecchi/day-eight-homework-JS-game",
+    "url": "https://api.github.com/repos/thcecchi/day-eight-homework-JS-game"
+  },
+  "payload": {
+    "ref": "master",
+    "ref_type": "branch",
+    "master_branch": "master",
+    "description": "",
+    "pusher_type": "user"
+  },
+  "public": true,
+  "created_at": "2015-01-19T22:01:58Z"
+},
+{
+  "id": "2522424979",
+  "type": "CreateEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29498806,
+    "name": "thcecchi/day-eight-homework-JS-game",
+    "url": "https://api.github.com/repos/thcecchi/day-eight-homework-JS-game"
+  },
+  "payload": {
+    "ref": null,
+    "ref_type": "repository",
+    "master_branch": "master",
+    "description": "",
+    "pusher_type": "user"
+  },
+  "public": true,
+  "created_at": "2015-01-19T22:00:07Z"
+},
+{
+  "id": "2518522243",
+  "type": "PushEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29321969,
+    "name": "thcecchi/day-eight-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-eight-homework"
+  },
+  "payload": {
+    "push_id": 548764046,
+    "size": 1,
+    "distinct_size": 1,
+    "ref": "refs/heads/master",
+    "head": "b3affeba4ec0074ab216230a5b0c84a6e79c08f7",
+    "before": "6195e313d9b33640424a6d3ba54f10a5361e95c6",
+    "commits": [
+  {
+    "sha": "b3affeba4ec0074ab216230a5b0c84a6e79c08f7",
+    "author": {
+      "email": "thcecchi@gmail.com",
+      "name": "Tyler Cecchi"
+    },
+    "message": "completed tablet layout",
+    "distinct": true,
+    "url": "https://api.github.com/repos/thcecchi/day-eight-homework/commits/b3affeba4ec0074ab216230a5b0c84a6e79c08f7"
+  }
+  ]
+},
+"public": true,
+"created_at": "2015-01-16T22:53:48Z"
+},
+{
+  "id": "2518082234",
+  "type": "PushEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29321969,
+    "name": "thcecchi/day-eight-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-eight-homework"
+  },
+  "payload": {
+    "push_id": 548589493,
+    "size": 3,
+    "distinct_size": 3,
+    "ref": "refs/heads/master",
+    "head": "6195e313d9b33640424a6d3ba54f10a5361e95c6",
+    "before": "2f717a62a63d774e23ec4ad4c064932e468a0070",
+    "commits": [
+  {
+    "sha": "f80db7fc636ea9d6af55b5e8085c5ad4892bc11d",
+    "author": {
+      "email": "thcecchi@gmail.com",
+      "name": "Tyler Cecchi"
+    },
+    "message": "third commit",
+    "distinct": true,
+    "url": "https://api.github.com/repos/thcecchi/day-eight-homework/commits/f80db7fc636ea9d6af55b5e8085c5ad4892bc11d"
+  },
+{
+  "sha": "2a4bf36de65307a2cc70cd424173e0bee6faf2f2",
+  "author": {
+    "email": "thcecchi@gmail.com",
+    "name": "Tyler Cecchi"
+  },
+  "message": "completed desktop layout",
+  "distinct": true,
+  "url": "https://api.github.com/repos/thcecchi/day-eight-homework/commits/2a4bf36de65307a2cc70cd424173e0bee6faf2f2"
+},
+{
+  "sha": "6195e313d9b33640424a6d3ba54f10a5361e95c6",
+  "author": {
+    "email": "thcecchi@gmail.com",
+    "name": "Tyler Cecchi"
+  },
+  "message": "completed desktop layout",
+  "distinct": true,
+  "url": "https://api.github.com/repos/thcecchi/day-eight-homework/commits/6195e313d9b33640424a6d3ba54f10a5361e95c6"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-16T19:22:56Z"
+},
+{
+  "id": "2516096124",
+  "type": "PushEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29321969,
+    "name": "thcecchi/day-eight-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-eight-homework"
+  },
+  "payload": {
+    "push_id": 547775962,
+    "size": 2,
+    "distinct_size": 2,
+    "ref": "refs/heads/master",
+    "head": "2f717a62a63d774e23ec4ad4c064932e468a0070",
+    "before": "b9806f34d71f509b801f055ebc5eadb606b88496",
+    "commits": [
+  {
+    "sha": "6582c4723fc69325f8b5194978d1a93fa37f72a0",
+    "author": {
+      "email": "thcecchi@gmail.com",
+      "name": "Tyler Cecchi"
+    },
+    "message": "second commit",
+    "distinct": true,
+    "url": "https://api.github.com/repos/thcecchi/day-eight-homework/commits/6582c4723fc69325f8b5194978d1a93fa37f72a0"
+  },
+{
+  "sha": "2f717a62a63d774e23ec4ad4c064932e468a0070",
+  "author": {
+    "email": "thcecchi@gmail.com",
+    "name": "Tyler Cecchi"
+  },
+  "message": "second commit",
+  "distinct": true,
+  "url": "https://api.github.com/repos/thcecchi/day-eight-homework/commits/2f717a62a63d774e23ec4ad4c064932e468a0070"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-15T23:15:16Z"
+},
+{
+  "id": "2516035624",
+  "type": "CreateEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29321969,
+    "name": "thcecchi/day-eight-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-eight-homework"
+  },
+  "payload": {
+    "ref": "master",
+    "ref_type": "branch",
+    "master_branch": "master",
+    "description": "Powell Peralta",
+    "pusher_type": "user"
+  },
+  "public": true,
+  "created_at": "2015-01-15T22:46:46Z"
+},
+{
+  "id": "2516030460",
+  "type": "CreateEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29321969,
+    "name": "thcecchi/day-eight-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-eight-homework"
+  },
+  "payload": {
+    "ref": null,
+    "ref_type": "repository",
+    "master_branch": "master",
+    "description": "Powell Peralta",
+    "pusher_type": "user"
+  },
+  "public": true,
+  "created_at": "2015-01-15T22:44:23Z"
+},
+{
+  "id": "2513493416",
+  "type": "PushEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 28876342,
+    "name": "thcecchi/day-two-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-two-homework"
+  },
+  "payload": {
+    "push_id": 546711312,
+    "size": 1,
+    "distinct_size": 1,
+    "ref": "refs/heads/master",
+    "head": "5e76162ca588bb8a80353d4957ffb37f5793655b",
+    "before": "262f456e9ee6fbf90df9842df44740e907ebcbf3",
+    "commits": [
+  {
+    "sha": "5e76162ca588bb8a80353d4957ffb37f5793655b",
+    "author": {
+      "email": "thcecchi@gmail.com",
+      "name": "Tyler Cecchi"
+    },
+    "message": "added mixin for col widths",
+    "distinct": true,
+    "url": "https://api.github.com/repos/thcecchi/day-two-homework/commits/5e76162ca588bb8a80353d4957ffb37f5793655b"
+  }
+  ]
+},
+"public": true,
+"created_at": "2015-01-14T23:42:14Z"
+},
+{
+  "id": "2513439031",
+  "type": "PushEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29153285,
+    "name": "thcecchi/day-five-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-five-homework"
+  },
+  "payload": {
+    "push_id": 546689583,
+    "size": 1,
+    "distinct_size": 1,
+    "ref": "refs/heads/master",
+    "head": "69c5faf545481ac5878fdabceca806ccf89b113b",
+    "before": "2e2eba7565207aa6be5546f9a85ee46b1e8a024f",
+    "commits": [
+  {
+    "sha": "69c5faf545481ac5878fdabceca806ccf89b113b",
+    "author": {
+      "email": "thcecchi@gmail.com",
+      "name": "Tyler Cecchi"
+    },
+    "message": "@imported media queries as seperate SASS files",
+    "distinct": true,
+    "url": "https://api.github.com/repos/thcecchi/day-five-homework/commits/69c5faf545481ac5878fdabceca806ccf89b113b"
+  }
+  ]
+},
+"public": true,
+"created_at": "2015-01-14T23:13:20Z"
+},
+{
+  "id": "2512867685",
+  "type": "PushEvent",
+  "actor": {
+    "id": 10407929,
+    "login": "thcecchi",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thcecchi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10407929?"
+  },
+  "repo": {
+    "id": 29153285,
+    "name": "thcecchi/day-five-homework",
+    "url": "https://api.github.com/repos/thcecchi/day-five-homework"
+  },
+  "payload": {
+    "push_id": 546464874,
+    "size": 2,
+    "distinct_size": 2,
+    "ref": "refs/heads/master",
+    "head": "2e2eba7565207aa6be5546f9a85ee46b1e8a024f",
+    "before": "d1712d3fd60d4c237727f0a1db267a3084a61b36",
+    "commits": [
+  {
+    "sha": "4705759e44f247f2ac4b81d6b436211e12bd8eec",
+    "author": {
+      "email": "thcecchi@gmail.com",
+      "name": "Tyler Cecchi"
+    },
+    "message": "updated SASS",
+    "distinct": true,
+    "url": "https://api.github.com/repos/thcecchi/day-five-homework/commits/4705759e44f247f2ac4b81d6b436211e12bd8eec"
+  },
+{
+  "sha": "2e2eba7565207aa6be5546f9a85ee46b1e8a024f",
+  "author": {
+    "email": "thcecchi@gmail.com",
+    "name": "Tyler Cecchi"
+  },
+  "message": "revised DRY stylsheets",
+  "distinct": true,
+  "url": "https://api.github.com/repos/thcecchi/day-five-homework/commits/2e2eba7565207aa6be5546f9a85ee46b1e8a024f"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-14T19:11:38Z"
+}
+]
