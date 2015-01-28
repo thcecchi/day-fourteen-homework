@@ -19,13 +19,36 @@ aside {
   vertical-align: top;
   background: blanchedalmond; }
   aside img {
+    margin-top: 5%;
     width: 75%;
     border-radius: 5%;
     display: block;
     margin-left: auto;
     margin-right: auto; }
+  aside .userInformation {
+    display: block;
+    margin-left: 25%; }
+  aside .stats {
+    display: inline-block;
+    width: 50%;
+    text-align: center; }
+    aside .stats h2 {
+      color: blue;
+      font-weight: bold; }
 
 section {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  background: tomato; }
+
+.activitySmall {
+  width: 70%;
+  display: inline-block;
+  vertical-align: top;
+  background: tomato; }
+
+.activityLarge {
   width: 70%;
   display: inline-block;
   vertical-align: top;
