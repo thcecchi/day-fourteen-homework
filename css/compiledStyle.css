@@ -18,6 +18,12 @@ aside {
   display: inline-block;
   vertical-align: top;
   background: blanchedalmond; }
+  aside img {
+    width: 75%;
+    border-radius: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
 
 section {
   width: 70%;
