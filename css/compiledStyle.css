@@ -8,16 +8,62 @@ body {
 
 .container {
   width: 80%;
-  background: lightblue;
+  background: white;
   margin-left: auto;
   margin-right: auto;
   display: block; }
+  .container .repos {
+    display: none !important;
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    background: white; }
+    .container .repos .repoContainer {
+      padding-left: 5%;
+      border-bottom: 2px solid gray; }
+      .container .repos .repoContainer .repoName {
+        display: inline-block;
+        width: 40%;
+        font-family: sans-serif; }
+        .container .repos .repoContainer .repoName h2 {
+          color: blue; }
+      .container .repos .repoContainer .repoStats {
+        display: inline-block;
+        width: 40%;
+        text-align: center;
+        margin-left: 20%; }
+        .container .repos .repoContainer .repoStats p {
+          display: inline-block;
+          padding-right: 8%; }
+        .container .repos .repoContainer .repoStats span {
+          padding-right: 4%; }
+  .container .activityFeed {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    background: white; }
+  .container .activityContainer {
+    width: 100%; }
+    .container .activityContainer .mega-octicon {
+      display: inline-block;
+      padding-right: 3%; }
+    .container .activityContainer .activityInfo {
+      display: inline-block;
+      width: 70%; }
+      .container .activityContainer .activityInfo span {
+        display: inline-block; }
+      .container .activityContainer .activityInfo p {
+        display: inline-block;
+        padding-left: 1%; }
+      .container .activityContainer .activityInfo .commitIcon {
+        width: 10%;
+        display: inline-block; }
 
 aside {
   width: 28%;
   display: inline-block;
   vertical-align: top;
-  background: blanchedalmond; }
+  background: white; }
   aside img {
     margin-top: 5%;
     width: 75%;
@@ -35,12 +81,6 @@ aside {
     aside .stats h2 {
       color: blue;
       font-weight: bold; }
-
-section {
-  width: 100%;
-  display: inline-block;
-  vertical-align: top;
-  background: tomato; }
 
 .activitySmall {
   width: 70%;

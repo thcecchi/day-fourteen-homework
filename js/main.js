@@ -9,89 +9,7 @@ var profilePage =
   initStyle: function () {
     profilePage.userProfileInfo();
     profilePage.userRepoInformation();
-
-
-
-// // user profile data
-//     var userAvatar = _.pluck([userData],"avatar_url");
-//     var userName = _.pluck([userData],"name");
-//     var userLogin = _.pluck([userData],"login");
-//     var userLocation = _.pluck([userData],"location");
-//     var userCreatedAt = _.pluck([userData],"created_at");
-//     var userFollowers = _.pluck([userData],"followers");
-//     var userFollowing = _.pluck([userData],"following");
-//
-//     var profData = {
-//       avatar_url: userAvatar,
-//       name: userName,
-//       login: userLogin,
-//       location: userLocation,
-//       created_at: userCreatedAt,
-//       followers: userFollowers,
-//       following: userFollowing
-//     };
-//
-//     var userCompiled = _.template(templates.userProf);
-//       console.log(userCompiled(profData));
-//       $("aside").append(userCompiled(profData));
-
-// // user repo data
-//     var repoName = _.pluck(repoData,"name");
-//     console.log(repoName);
-//     var repoUpdatedAt = _.pluck(repoData,"updated_at");
-//     console.log(repoUpdatedAt);
-//     var repoLanguage = _.pluck(repoData,"language");
-//     console.log(repoLanguage);
-//     var repoStargazersCount = _.pluck(repoData,"stargazers_count");
-//     console.log(repoStargazersCount);
-//     var repoForksCount = _.pluck(repoData,"forks_count");
-//     console.log(repoForksCount);
-//
-//     var repoFeedData = {
-//       name: repoName,
-//       updated_at: repoUpdatedAt,
-//       langauge: repoLanguage,
-//       stargazers_count: repoStargazersCount,
-//       forks_count: repoForksCount
-//     };
-//
-//     var repoCompiled = _.template(templates.repos);
-//       console.log(repoCompiled(repoFeedData));
-//       $(".repos").append(repoCompiled(repoFeedData));
-
-// // user activity data
-// activityData.forEach(function(Object) {
-//   var index = activityData.indexOf(Object);
-//   console.log(index);
-//
-//
-//     var activityAvatar = _.pluck(activityData[index], "avatar_url");
-//     console.log(activityAvatar);
-//     var activityName = _.pluck(activityData[index], "name");
-//     console.log(activityName);
-//     var activityLogin = _.pluck(activityData[index], "login");
-//     console.log(activityLogin);
-//     var activityRef = _.pluck(activityData[index], "ref");
-//     console.log(activityRef);
-//     var activityMessage = _.pluck(activityData[index], "message");
-//     console.log(activityMessage);
-//
-//     var activityFeedData = {
-//       avatar_url: activityAvatar,
-//       name: activityName,
-//       login: activityLogin,
-//       ref: activityRef,
-//       message: activityMessage
-//     };
-//
-//     var activitySmallCompiled = _.template(templates.activitySmall);
-//       console.log(activitySmallCompiled(activityFeedData));
-//       $(".activitySmall").append(activitySmallCompiled(activityFeedData));
-//
-//     // var activityLargeCompiled = _.template(templates.activityLarge);
-//     //   console.log(activityLargeCompiled(activityFeedData));
-//     //   $(".activityLarge").append(activityLargeCompiled(activityFeedData));
-// });
+    profilePage.userActivityFeed();
 
   },
 
@@ -174,22 +92,22 @@ var profilePage =
       console.log(activityName);
       var activityLogin = _.pluck(activityData[index], "login");
       console.log(activityLogin);
-      var activityRef = _.pluck(activityData[index], "ref");
+      var activityRef = _.pluck(activityData[index], "ref_type");
       console.log(activityRef);
-      var activityMessage = _.pluck(activityData[index], "message");
+      var activityMessage = _.pluck(activityData[index].payload[index], "message");
       console.log(activityMessage);
 
       var activityFeedData = {
         avatar_url: activityAvatar,
         name: activityName,
         login: activityLogin,
-        ref: activityRef,
+        ref_type: activityRef,
         message: activityMessage
       };
 
       var activitySmallCompiled = _.template(templates.activitySmall);
       console.log(activitySmallCompiled(activityFeedData));
-      $(".activitySmall").append(activitySmallCompiled(activityFeedData));
+      $(".activityFeed").append(activitySmallCompiled(activityFeedData));
 
       // var activityLargeCompiled = _.template(templates.activityLarge);
       //   console.log(activityLargeCompiled(activityFeedData));

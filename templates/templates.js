@@ -17,25 +17,33 @@ templates.userProf = [
 ].join("")
 
 templates.repos = [
+  "<div class='repoContainer'>",
   "<div class='repoName'>",
   "<h2><%= name %></h2>",
   "<p><%= updated_at %></p>",
   "</div>",
+  "<div class='repoStats'>",
   "<p><%= langauge %></p>",
-  "<span>ICON</span>",
+  "<span class='octicon octicon-eye'></span>",
   "<p><%= stargazers_count %></p>",
-  "<span>ICON</span>",
-  "<p><%= forks_count %></p>"
+  "<span class='octicon octicon-git-branch'></span>",
+  "<p><%= forks_count %></p>",
+  "</div>",
+  "</div>"
+
 ].join("")
 
 templates.activitySmall = [
-  "<div class='activityName'>",
+  "<div class='activityContainer'>",
   "<span class='mega-octicon octicon-git-commit'></span>",
-  "<p><%= login %></p>",
-  "<p>created branch</p>",
+  "<div class='activityInfo'>",
+  "<p><a href = '#'><%= login %></a></p>",
+  "<p>created</p>",
+  "<p><%= ref_type %></p>",
   "<span class='octicon octicon-git-branch'></span>",
   "<p>at</p>",
   "<p><%= name %></p>",
+  "</div>",
   "</div>"
 ].join("")
 
