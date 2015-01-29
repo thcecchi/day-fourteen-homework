@@ -22,6 +22,8 @@ var profilePage =
     var userAvatar = _.pluck([userData],"avatar_url");
     var userName = _.pluck([userData],"name");
     var userLogin = _.pluck([userData],"login");
+    var userEmail = _.pluck([userData],"email");
+    var userBlog = _.pluck([userData],"blog");
     var userLocation = _.pluck([userData],"location");
     var userCreatedAt = _.pluck([userData],"created_at");
     var userFollowers = _.pluck([userData],"followers");
@@ -31,6 +33,8 @@ var profilePage =
       avatar_url: userAvatar,
       name: userName,
       login: userLogin,
+      email: userEmail,
+      blog: userBlog,
       location: userLocation,
       created_at: userCreatedAt,
       followers: userFollowers,
@@ -96,14 +100,38 @@ var profilePage =
       console.log(activityRef);
       var activityMessage = _.pluck(activityData[index].payload.commits, "message");
       console.log(activityMessage);
+      var activityRefMaster = _.pluck(activityData[index], "ref");
+      console.log(activityRefMaster);
+      var activityId = _.pluck(activityData[index], "id");
+      console.log(activityId);
+
 
       var activityFeedData = {
         avatar_url: activityAvatar,
         name: activityName,
         login: activityLogin,
         ref_type: activityRef,
-        message: activityMessage
+        ref: activityRefMaster,
+        message: activityMessage,
+        id: activityId
       };
+
+      var arrayPlucker = function(array){
+        _.each(activityFeedData,function(array){
+
+          var undef = undefined;
+          for (var i=array.length - 1; i >=0; i--) {
+            if ( array[i] === undef ) {
+              array.splice(i,1);
+            }
+          }
+        });
+      };
+
+      arrayPlucker(activityFeedData);
+
+
+
 
       var activitySmallCompiled = _.template(templates.activitySmall);
       console.log(activitySmallCompiled(activityFeedData));

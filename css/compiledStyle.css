@@ -41,57 +41,66 @@ body {
     width: 70%;
     display: inline-block;
     vertical-align: top;
-    background: white; }
-  .container .activityContainer {
-    width: 100%;
-    border-bottom: 2px solid gray; }
-    .container .activityContainer .mega-octicon {
-      display: inline-block;
-      padding-right: 3%; }
-    .container .activityContainer .activityInfo {
-      display: inline-block;
-      width: 70%; }
-      .container .activityContainer .activityInfo span {
-        display: inline-block; }
-      .container .activityContainer .activityInfo p {
+    background: white;
+    font-family: sans-serif; }
+    .container .activityFeed .activityContainer {
+      width: 95%;
+      border-bottom: 2px solid gray;
+      display: inline-block; }
+      .container .activityFeed .activityContainer .activityInfo {
         display: inline-block;
-        padding-left: 1%; }
-        .container .activityContainer .activityInfo p a {
-          color: #2F7BF5; }
-      .container .activityContainer .activityInfo .commitIcon {
-        width: 10%;
-        display: inline-block; }
-
-aside {
-  width: 28%;
-  display: inline-block;
-  vertical-align: top;
-  background: white;
-  font-family: sans-serif; }
-  aside img {
-    margin-top: 5%;
-    width: 75%;
-    border-radius: 5%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; }
-  aside .userInformation {
-    display: block;
-    margin-left: 25%; }
-  aside .stats {
+        width: 100%; }
+        .container .activityFeed .activityContainer .activityInfo p.large {
+          font-size: 12px;
+          padding-right: 1%;
+          display: inline-block; }
+          .container .activityFeed .activityContainer .activityInfo p.large a {
+            color: #2F7BF5; }
+      .container .activityFeed .activityContainer img {
+        width: 6%; }
+      .container .activityFeed .activityContainer p {
+        display: inline-block;
+        padding-right: 1%; }
+      .container .activityFeed .activityContainer span {
+        color: gray;
+        display: inline-block;
+        padding-right: 2%; }
+      .container .activityFeed .activityContainer .activityInfo {
+        display: inline-block;
+        width: 100%; }
+        .container .activityFeed .activityContainer .activityInfo span {
+          color: gray;
+          display: inline-block;
+          padding-right: 2%; }
+        .container .activityFeed .activityContainer .activityInfo p.small {
+          font-size: 6px;
+          padding-right: 1%;
+          display: inline-block;
+          color: gray; }
+          .container .activityFeed .activityContainer .activityInfo p.small a {
+            color: #2F7BF5; }
+        .container .activityFeed .activityContainer .activityInfo img.small {
+          width: 3%; }
+  .container aside {
+    width: 28%;
     display: inline-block;
-    width: 50%;
-    text-align: center; }
-    aside .stats h2 {
-      color: #2F7BF5;
-      font-weight: bold; }
-
-.activitySmall {
-  width: 70%;
-  display: inline-block;
-  vertical-align: top; }
-
-.activityLarge {
-  width: 70%;
-  display: inline-block;
-  vertical-align: top; }
+    vertical-align: top;
+    background: white;
+    font-family: sans-serif; }
+    .container aside img {
+      margin-top: 5%;
+      width: 75%;
+      border-radius: 5%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    .container aside .userInformation {
+      display: block;
+      margin-left: 25%; }
+    .container aside .stats {
+      display: inline-block;
+      width: 50%;
+      text-align: center; }
+      .container aside .stats h2 {
+        color: #2F7BF5;
+        font-weight: bold; }
