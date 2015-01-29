@@ -1,3 +1,5 @@
+$githubBlue: #2F7BF5;
+
 body {
   padding: 0;
   margin: 0;
@@ -33,7 +35,7 @@ body {
         font-family: sans-serif;
 
         h2 {
-          color: blue;
+          color: $githubBlue;
         }
 
       }
@@ -67,6 +69,7 @@ body {
 
   .activityContainer {
     width: 100%;
+    border-bottom: 2px solid gray;
 
     .mega-octicon {
       display: inline-block;
@@ -79,12 +82,15 @@ body {
 
     span {
       display: inline-block;
-
     }
 
     p {
       display: inline-block;
       padding-left: 1%;
+
+      a {
+        color: $githubBlue;
+      }
 
     }
 
@@ -104,6 +110,7 @@ aside {
   display: inline-block;
   vertical-align: top;
   background: white;
+  font-family: sans-serif;
 
   img {
     margin-top: 5%;
@@ -125,7 +132,7 @@ aside {
     text-align: center;
 
     h2 {
-      color: blue;
+      color: $githubBlue;
       font-weight: bold;
     }
   }
@@ -136,12 +143,10 @@ aside {
   width: 70%;
   display: inline-block;
   vertical-align: top;
-  background: tomato;
 }
 
 .activityLarge {
   width: 70%;
   display: inline-block;
   vertical-align: top;
-  background: tomato;
 }

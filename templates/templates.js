@@ -47,15 +47,17 @@ templates.activitySmall = [
   "</div>"
 ].join("")
 
-// templates.activityLarge = [
-// "<div>",
-// "<span class='mega-octicon octicon-git-branch'></span>",
-// "<img src = <%= avatar_url %>",
-// "<p><%= login %></p>",
-// "<p>pushed to</p>",
-// "<p><%= ref %></p>",
-// "<p>at</p>",
-// "<p><%= name %></p>",
-// "<p><%= message %></p>",
-// "</div>"
-// ].join("")
+templates.activityLarge = [
+  "<div class='activityContainer'>",
+  "<span class='octicon octicon-git-branch'></span>",
+  "<div class='activityInfo'>",
+  "<img src = <%= avatar_url %> >",
+  "<p><%= login %></p>",
+  "<p>pushed to</p>",
+  "<p><%= ref_type %></p>",
+  "<p>at</p>",
+  "<p><%= name %></p>",
+  "<p><%= message %></p>",
+  "</div>",
+  "</div>"
+].join("")

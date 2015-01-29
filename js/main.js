@@ -94,7 +94,7 @@ var profilePage =
       console.log(activityLogin);
       var activityRef = _.pluck(activityData[index], "ref_type");
       console.log(activityRef);
-      var activityMessage = _.pluck(activityData[index].payload[index], "message");
+      var activityMessage = _.pluck(activityData[index].payload.commits, "message");
       console.log(activityMessage);
 
       var activityFeedData = {
@@ -109,9 +109,9 @@ var profilePage =
       console.log(activitySmallCompiled(activityFeedData));
       $(".activityFeed").append(activitySmallCompiled(activityFeedData));
 
-      // var activityLargeCompiled = _.template(templates.activityLarge);
-      //   console.log(activityLargeCompiled(activityFeedData));
-      //   $(".activityLarge").append(activityLargeCompiled(activityFeedData));
+      var activityLargeCompiled = _.template(templates.activityLarge);
+        console.log(activityLargeCompiled(activityFeedData));
+        $(".activityFeed").append(activityLargeCompiled(activityFeedData));
     });
 
   },
