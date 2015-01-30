@@ -51,7 +51,7 @@ templates.activitySmall = [
 
 templates.activityLarge = [
   "<div class='activityContainer'>",
-    "<div class='activityInfo'>",
+    "<div class='activityInfoLarge'>",
     "<p><a href = '#'><%= login %></a></p>",
     "<p class='large'>pushed to</p>",
     "<p class='large'><%= ref_type %></p>",
@@ -61,12 +61,13 @@ templates.activityLarge = [
 
   "<span class='octicon octicon-git-branch'></span>",
   "<img src = <%= avatar_url %> >",
-  "<div class='activityInfo'>",
+  "<div class='activityInfoSmall'>",
     "<img class='small' src = <%= avatar_url %> >",
     "<p class='small'><%= ref[0] %></p>",
     "<p class='small'><%= id[0] %></p>",
     "<p class='small'><%= message[0] %></p>",
     "<br>",
+    "<img class='small' src = <%= avatar_url %> >",
     "<p class='small'><%= ref[1] %></p>",
     "<p class='small'><%= id[1] %></p>",
     "<p class='small'><%= message[1] %></p>",
