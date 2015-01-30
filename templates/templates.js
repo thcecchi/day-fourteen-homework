@@ -20,15 +20,15 @@ templates.userProf = [
 templates.repos = [
   "<div class='repoContainer'>",
   "<div class='repoName'>",
-  "<h2><%= name %></h2>",
-  "<p><%= updated_at %></p>",
+  "<h3><%= name %></h3>",
+  "<p>Updated <%= updated_at %></p>",
   "</div>",
   "<div class='repoStats'>",
   "<p><%= langauge %></p>",
   "<span class='octicon octicon-star'></span>",
-  "<p><%= stargazers_count %></p>",
+  "<p><a><%= stargazers_count %></a></p>",
   "<span class='octicon octicon-git-branch'></span>",
-  "<p><%= forks_count %></p>",
+  "<p><a><%= forks_count %></a></p>",
   "</div>",
   "</div>"
 

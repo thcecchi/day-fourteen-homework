@@ -40,8 +40,7 @@ var profilePage =
     var userFollowers = _.pluck([userData],"followers");
     var userFollowing = _.pluck([userData],"following");
 
-    var userCreateDate = moment(userCreatedAt).format('YYYY-MM-DD');
-    // moment(localTime).format('YYYY-MM-DD HH:mm:ss')
+    var userCreateDate = moment(userCreatedAt).fromNow();
 
     var profData = {
       avatar_url: userAvatar,
@@ -82,9 +81,11 @@ var profilePage =
       var repoForksCount = _.pluck(repoData,"forks_count");
       console.log(repoForksCount);
 
+      var repoUpdateDate = moment(repoUpdatedAt[index]).fromNow();
+
       var repoFeedData = {
         name: repoName[index],
-        updated_at: repoUpdatedAt[index],
+        updated_at: repoUpdateDate,
         langauge: repoLanguage[index],
         stargazers_count: repoStargazersCount[index],
         forks_count: repoForksCount[index]
