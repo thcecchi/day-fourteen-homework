@@ -4,6 +4,8 @@ var profilePage =
   init: function () {
     profilePage.initStyle();
     profilePage.initEvents();
+    $(".activityFeed").hide();
+
   },
 
   initStyle: function () {
@@ -14,6 +16,15 @@ var profilePage =
   },
 
   initEvents: function () {
+    $(".navRepo").click(function() {
+      $(".repos").show();
+      $(".activityFeed").hide();
+    })
+
+    $(".navActivity").click(function() {
+      $(".activityFeed").show();
+      $(".repos").hide();
+    })
 
   },
 
@@ -29,6 +40,9 @@ var profilePage =
     var userFollowers = _.pluck([userData],"followers");
     var userFollowing = _.pluck([userData],"following");
 
+    var userCreateDate = moment(userCreatedAt).format('YYYY-MM-DD');
+    // moment(localTime).format('YYYY-MM-DD HH:mm:ss')
+
     var profData = {
       avatar_url: userAvatar,
       name: userName,
@@ -36,7 +50,7 @@ var profilePage =
       email: userEmail,
       blog: userBlog,
       location: userLocation,
-      created_at: userCreatedAt,
+      created_at: userCreateDate,
       followers: userFollowers,
       following: userFollowing
     };

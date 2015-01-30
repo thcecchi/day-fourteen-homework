@@ -6,6 +6,27 @@ body {
   width: 100%;
   background: gray; }
 
+header {
+  width: 70%;
+  border-bottom: 1px solid lightgray;
+  display: inline-block;
+  padding-top: 1%; }
+  header nav {
+    width: 100%;
+    display: inline-block; }
+    header nav ul {
+      list-style-type: none;
+      display: inline-block;
+      width: 100%;
+      font-family: sans-serif;
+      cursor: pointer; }
+      header nav ul li {
+        display: inline-block;
+        color: lightgray;
+        font-size: 18px;
+        text-decoration: none;
+        padding-right: 20%; }
+
 .container {
   width: 80%;
   background: white;
@@ -13,14 +34,14 @@ body {
   margin-right: auto;
   display: block; }
   .container .repos {
-    display: none !important;
+    display: inline-block;
     width: 70%;
     display: inline-block;
     vertical-align: top;
     background: white; }
     .container .repos .repoContainer {
       padding-left: 5%;
-      border-bottom: 2px solid gray; }
+      border-bottom: 1px solid lightgray; }
       .container .repos .repoContainer .repoName {
         display: inline-block;
         width: 40%;
@@ -45,19 +66,21 @@ body {
     font-family: sans-serif; }
     .container .activityFeed .activityContainer {
       width: 95%;
-      border-bottom: 2px solid gray;
+      border-bottom: 1px solid lightgray;
       display: inline-block; }
-      .container .activityFeed .activityContainer .activityInfo {
+      .container .activityFeed .activityContainer .activityInfoLarge {
         display: inline-block;
-        width: 100%; }
-        .container .activityFeed .activityContainer .activityInfo p.large {
+        width: 90%; }
+        .container .activityFeed .activityContainer .activityInfoLarge p.large {
           font-size: 12px;
           padding-right: 1%;
           display: inline-block; }
-          .container .activityFeed .activityContainer .activityInfo p.large a {
+          .container .activityFeed .activityContainer .activityInfoLarge p.large a {
             color: #2F7BF5; }
       .container .activityFeed .activityContainer img {
-        width: 6%; }
+        width: 6%;
+        margin-left: 6%;
+        border-radius: 5%; }
       .container .activityFeed .activityContainer p {
         display: inline-block;
         padding-right: 1%; }
@@ -65,28 +88,43 @@ body {
         color: gray;
         display: inline-block;
         padding-right: 2%; }
-      .container .activityFeed .activityContainer .activityInfo {
+      .container .activityFeed .activityContainer .activityInfoSmall {
         display: inline-block;
-        width: 100%; }
-        .container .activityFeed .activityContainer .activityInfo span {
+        width: 50%;
+        margin-left: 3%; }
+        .container .activityFeed .activityContainer .activityInfoSmall span {
           color: gray;
           display: inline-block;
           padding-right: 2%; }
-        .container .activityFeed .activityContainer .activityInfo p.small {
-          font-size: 6px;
+        .container .activityFeed .activityContainer .activityInfoSmall p.small {
+          font-size: 10px;
           padding-right: 1%;
           display: inline-block;
           color: gray; }
-          .container .activityFeed .activityContainer .activityInfo p.small a {
+          .container .activityFeed .activityContainer .activityInfoSmall p.small a {
             color: #2F7BF5; }
-        .container .activityFeed .activityContainer .activityInfo img.small {
-          width: 3%; }
+        .container .activityFeed .activityContainer .activityInfoSmall img.small {
+          width: 4%;
+          border-radius: 5%; }
   .container aside {
     width: 28%;
     display: inline-block;
     vertical-align: top;
     background: white;
-    font-family: sans-serif; }
+    font-family: sans-serif;
+    float: left; }
+    .container aside span {
+      display: inline-block;
+      color: gray;
+      padding-right: 4%; }
+    .container aside h1 {
+      text-align: left;
+      color: black;
+      margin-bottom: -15px; }
+    .container aside h3 {
+      text-align: left; }
+    .container aside p {
+      display: inline-block; }
     .container aside img {
       margin-top: 5%;
       width: 75%;
@@ -96,7 +134,12 @@ body {
       margin-right: auto; }
     .container aside .userInformation {
       display: block;
-      margin-left: 25%; }
+      margin-left: 15%;
+      border-bottom: 1px solid lightgray;
+      color: black;
+      font-size: 14px; }
+    .container aside p.userInformation {
+      padding-left: 3%; }
     .container aside .stats {
       display: inline-block;
       width: 50%;
