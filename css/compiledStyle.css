@@ -50,7 +50,7 @@ header {
         width: 40%;
         font-family: sans-serif; }
         .container .repos .repoContainer .repoName h3 {
-          color: #2F7BF5;
+          color: #4183c4;
           width: 100%;
           display: inline-block;
           margin-bottom: -1%; }
@@ -89,7 +89,7 @@ header {
           padding-right: 1%;
           display: inline-block; }
           .container .activityFeed .activityContainer .activityInfoLarge p.large a {
-            color: #2F7BF5; }
+            color: #4183c4; }
       .container .activityFeed .activityContainer img {
         width: 6%;
         margin-left: 6%;
@@ -115,7 +115,7 @@ header {
           display: inline-block;
           color: gray; }
           .container .activityFeed .activityContainer .activityInfoSmall p.small a {
-            color: #2F7BF5; }
+            color: #4183c4; }
         .container .activityFeed .activityContainer .activityInfoSmall img.small {
           width: 4%;
           border-radius: 5%; }
@@ -159,5 +159,5 @@ header {
       width: 50%;
       text-align: center; }
       .container aside .stats h2 {
-        color: #2F7BF5;
+        color: #4183c4;
         font-weight: bold; }
