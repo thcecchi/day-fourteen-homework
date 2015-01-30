@@ -93,7 +93,7 @@ header {
       .container .activityFeed .activityContainer img {
         width: 6%;
         margin-left: 6%;
-        border-radius: 5%; }
+        border-radius: 15%; }
       .container .activityFeed .activityContainer p {
         display: inline-block;
         padding-right: 1%; }
@@ -118,7 +118,7 @@ header {
             color: #4183c4; }
         .container .activityFeed .activityContainer .activityInfoSmall img.small {
           width: 4%;
-          border-radius: 5%; }
+          border-radius: 25%; }
   .container aside {
     width: 28%;
     display: inline-block;

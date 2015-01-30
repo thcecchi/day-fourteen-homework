@@ -65,7 +65,7 @@ templates.activityLarge = [
   "<img src = <%= avatar_url %> >",
   "<div class='activityInfoSmall'>",
     "<img class='small' src = <%= avatar_url %> >",
-    "<p class='small'><%= id[0] %></p>",
+    "<p class='small'><a><%= id[0] %></a></p>",
     "<p class='small'><%= message[0] %></p>",
     "<br>",
     // <% if (typeof(date) !== "undefined") { %>
@@ -73,7 +73,7 @@ templates.activityLarge = [
     //   <% } %>
     "<img class='small' src = <%= avatar_url %> >",
     "<p class='small'><%= ref[1] %></p>",
-    "<p class='small'><%= id[1] %></p>",
+    "<p class='small'><a><%= id[1] %></a></p>",
     "<p class='small'><%= message[1] %></p>",
   "</div>",
   "</div>"

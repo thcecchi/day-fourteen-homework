@@ -40,7 +40,7 @@ var profilePage =
     var userFollowers = _.pluck([userData],"followers");
     var userFollowing = _.pluck([userData],"following");
 
-    var userCreateDate = moment(userCreatedAt).fromNow();
+    var userCreateDate = moment(userCreatedAt).format('MMM D, YYYY');
 
     var profData = {
       avatar_url: userAvatar,
